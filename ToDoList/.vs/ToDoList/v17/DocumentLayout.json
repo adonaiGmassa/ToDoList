@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{5452D89E-BD62-48F6-ABC1-142213DB28AE}|ToDoList.csproj|c:\\users\\massa\\documents\\code\\todolist\\todolist\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5452D89E-BD62-48F6-ABC1-142213DB28AE}|ToDoList.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5452D89E-BD62-48F6-ABC1-142213DB28AE}|ToDoList.csproj|c:\\users\\massa\\documents\\code\\todolist\\todolist\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5452D89E-BD62-48F6-ABC1-142213DB28AE}|ToDoList.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,6 +35,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\massa\\Documents\\Code\\ToDoList\\ToDoList\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\massa\\Documents\\Code\\ToDoList\\ToDoList\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAWwAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T20:54:00.875Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
