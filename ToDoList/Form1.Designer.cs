@@ -30,7 +30,7 @@
         {
             this.lblTitre = new System.Windows.Forms.Label();
             this.txtbTache = new System.Windows.Forms.TextBox();
-            this.btnValide = new System.Windows.Forms.Button();
+            this.btnAjout = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -52,15 +52,15 @@
             this.txtbTache.Size = new System.Drawing.Size(221, 26);
             this.txtbTache.TabIndex = 1;
             // 
-            // btnValide
+            // btnAjout
             // 
-            this.btnValide.Location = new System.Drawing.Point(361, 145);
-            this.btnValide.Name = "btnValide";
-            this.btnValide.Size = new System.Drawing.Size(75, 25);
-            this.btnValide.TabIndex = 2;
-            this.btnValide.Text = "Valide";
-            this.btnValide.UseVisualStyleBackColor = true;
-            this.btnValide.Click += new System.EventHandler(this.button1_Click);
+            this.btnAjout.Location = new System.Drawing.Point(196, 143);
+            this.btnAjout.Name = "btnAjout";
+            this.btnAjout.Size = new System.Drawing.Size(143, 25);
+            this.btnAjout.TabIndex = 2;
+            this.btnAjout.Text = "Ajoute tache";
+            this.btnAjout.UseVisualStyleBackColor = true;
+            this.btnAjout.Click += new System.EventHandler(this.button1_Click);
             // 
             // dataGridView1
             // 
@@ -78,7 +78,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(808, 484);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.btnValide);
+            this.Controls.Add(this.btnAjout);
             this.Controls.Add(this.txtbTache);
             this.Controls.Add(this.lblTitre);
             this.Name = "ToDoList";
@@ -93,7 +93,7 @@
 
         private System.Windows.Forms.Label lblTitre;
         private System.Windows.Forms.TextBox txtbTache;
-        private System.Windows.Forms.Button btnValide;
+        private System.Windows.Forms.Button btnAjout;
         private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
