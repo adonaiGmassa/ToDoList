@@ -8,9 +8,9 @@ namespace ToDoList
 {
     public class Tache
     {
-        string nomtache;
-        string descriptiontache;
-        DateTime echeance;
+        public string nomTache { get; set; }
+        public string descriptionTache { get; set; }
+        public DateTime echeance { get; set; }
 
         // Méthode pour ajoute une tache
         public void AjoutTache() { }
