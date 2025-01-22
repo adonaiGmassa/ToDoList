@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace ToDoList
 {
@@ -38,6 +39,9 @@ namespace ToDoList
         }
 
         #endregion
+
+        NouvelleTache Nt;
+        FormList Fl;
 
         // Constructeur pour initialiser la tâche
         public Tache(string titre, string description, DateTime dueDate, bool state)

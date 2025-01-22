@@ -10,16 +10,13 @@ using System.Windows.Forms;
 
 namespace ToDoList
 {
-    public partial class ToDoList : Form
+    public partial class FormList : Form
     {
-        public ToDoList()
+        NouvelleTache nl;
+        Tache t;
+        public FormList()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace ToDoList
 {
-    partial class ToDoList
+    partial class FormList
     {
         /// <summary>
         /// Variable nécessaire au concepteur.
@@ -64,7 +64,6 @@
             this.btnAjout.TabIndex = 2;
             this.btnAjout.Text = "Ajoute tache";
             this.btnAjout.UseVisualStyleBackColor = true;
-            this.btnAjout.Click += new System.EventHandler(this.button1_Click);
             // 
             // dataGridView1
             // 
@@ -110,7 +109,7 @@
             this.dateTimePicker1.Size = new System.Drawing.Size(141, 26);
             this.dateTimePicker1.TabIndex = 7;
             // 
-            // ToDoList
+            // FormList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -123,8 +122,8 @@
             this.Controls.Add(this.btnAjout);
             this.Controls.Add(this.txtfiltre);
             this.Controls.Add(this.lblTitre);
-            this.Name = "ToDoList";
-            this.Text = "Form1";
+            this.Name = "FormList";
+            this.Text = "TODOLIST";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
