@@ -8,12 +8,25 @@ namespace ToDoList
 {
     public class Tache
     {
-        public string nomTache { get; set; }
-        public string descriptionTache { get; set; }
-        public DateTime echeance { get; set; }
+        #region Variables
+        private string nomTache;
+        private string descriptionTache;
+        private DateTime echeance;
+        private bool termine;
+        #endregion
+
+        // Constructeur pour initialiser la tâche
+        public Tache(string titre, string description, DateTime dueDate, bool state)
+        {
+            nomTache = titre;
+            descriptionTache = description;
+            echeance = dueDate;
+            termine = state;
+        }
+
 
         // Méthode pour ajoute une tache
-        public void AjoutTache() { }
+        public void AjoutTache() {}
 
         // Méthode pour mettre à jour une tache
         public void MajTache() { }

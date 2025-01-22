@@ -33,7 +33,7 @@
             this.lblTitre = new System.Windows.Forms.Label();
             this.btnAnnule = new System.Windows.Forms.Button();
             this.txtDescription = new System.Windows.Forms.TextBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dtpTache = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // btnValider
@@ -79,19 +79,19 @@
             this.txtDescription.Size = new System.Drawing.Size(374, 118);
             this.txtDescription.TabIndex = 7;
             // 
-            // dateTimePicker1
+            // dtpTache
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(254, 295);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(300, 26);
-            this.dateTimePicker1.TabIndex = 8;
+            this.dtpTache.Location = new System.Drawing.Point(254, 295);
+            this.dtpTache.Name = "dtpTache";
+            this.dtpTache.Size = new System.Drawing.Size(300, 26);
+            this.dtpTache.TabIndex = 8;
             // 
             // NouvelleTache
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.dtpTache);
             this.Controls.Add(this.txtDescription);
             this.Controls.Add(this.btnAnnule);
             this.Controls.Add(this.lblTitre);
@@ -112,6 +112,6 @@
         private System.Windows.Forms.Label lblTitre;
         private System.Windows.Forms.Button btnAnnule;
         private System.Windows.Forms.TextBox txtDescription;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dtpTache;
     }
 }
