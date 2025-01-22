@@ -15,6 +15,30 @@ namespace ToDoList
         private bool termine;
         #endregion
 
+        #region Accesseurs 
+        public string NomTache
+        {
+            get { return nomTache; }
+            set { nomTache = value; }
+        }
+        public string DescriptionTache
+        {
+            get { return descriptionTache; }
+            set { descriptionTache = value; }
+        }
+        public DateTime Echeance
+        {
+            get { return echeance; }
+            set { echeance = value; }
+        }
+        public bool Termine
+        {
+            get { return termine; }
+            set { termine = value; }
+        }
+
+        #endregion
+
         // Constructeur pour initialiser la tâche
         public Tache(string titre, string description, DateTime dueDate, bool state)
         {
