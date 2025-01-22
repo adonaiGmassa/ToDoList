@@ -48,14 +48,22 @@ namespace ToDoList
             termine = state;
         }
 
-
+        #region Methode Gestion Tache
         // Méthode pour ajoute une tache
-        public void AjoutTache() {}
+        public void AjoutTache() 
+        { }
 
         // Méthode pour mettre à jour une tache
-        public void MajTache() { }
+        public void MajTache() 
+        { }
+
+        // Méthode pour indique qu'une tache est terminée
+        public void tacheTermine() 
+        { }
 
         // Méthode pour supprime une tache
-        public void SuppTache() { }
+        public void SuppTache() 
+        { }
+        #endregion
     }
 }
