@@ -34,11 +34,14 @@
             this.btnAnnule = new System.Windows.Forms.Button();
             this.txtDescription = new System.Windows.Forms.TextBox();
             this.dtpTache = new System.Windows.Forms.DateTimePicker();
+            this.lblT = new System.Windows.Forms.Label();
+            this.lblDesc = new System.Windows.Forms.Label();
+            this.lblD = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnValider
             // 
-            this.btnValider.Location = new System.Drawing.Point(201, 381);
+            this.btnValider.Location = new System.Drawing.Point(201, 407);
             this.btnValider.Name = "btnValider";
             this.btnValider.Size = new System.Drawing.Size(143, 31);
             this.btnValider.TabIndex = 4;
@@ -64,7 +67,7 @@
             // 
             // btnAnnule
             // 
-            this.btnAnnule.Location = new System.Drawing.Point(477, 381);
+            this.btnAnnule.Location = new System.Drawing.Point(477, 407);
             this.btnAnnule.Name = "btnAnnule";
             this.btnAnnule.Size = new System.Drawing.Size(143, 31);
             this.btnAnnule.TabIndex = 6;
@@ -73,7 +76,7 @@
             // 
             // txtDescription
             // 
-            this.txtDescription.Location = new System.Drawing.Point(213, 158);
+            this.txtDescription.Location = new System.Drawing.Point(213, 175);
             this.txtDescription.Multiline = true;
             this.txtDescription.Name = "txtDescription";
             this.txtDescription.Size = new System.Drawing.Size(374, 118);
@@ -81,16 +84,46 @@
             // 
             // dtpTache
             // 
-            this.dtpTache.Location = new System.Drawing.Point(254, 295);
+            this.dtpTache.Location = new System.Drawing.Point(215, 345);
             this.dtpTache.Name = "dtpTache";
-            this.dtpTache.Size = new System.Drawing.Size(300, 26);
+            this.dtpTache.Size = new System.Drawing.Size(374, 26);
             this.dtpTache.TabIndex = 8;
+            // 
+            // lblT
+            // 
+            this.lblT.AutoSize = true;
+            this.lblT.Location = new System.Drawing.Point(216, 77);
+            this.lblT.Name = "lblT";
+            this.lblT.Size = new System.Drawing.Size(136, 20);
+            this.lblT.TabIndex = 9;
+            this.lblT.Text = "Nom de la Tache :";
+            // 
+            // lblDesc
+            // 
+            this.lblDesc.AutoSize = true;
+            this.lblDesc.Location = new System.Drawing.Point(211, 152);
+            this.lblDesc.Name = "lblDesc";
+            this.lblDesc.Size = new System.Drawing.Size(97, 20);
+            this.lblDesc.TabIndex = 10;
+            this.lblDesc.Text = "Description :";
+            // 
+            // lblD
+            // 
+            this.lblD.AutoSize = true;
+            this.lblD.Location = new System.Drawing.Point(216, 322);
+            this.lblD.Name = "lblD";
+            this.lblD.Size = new System.Drawing.Size(138, 20);
+            this.lblD.TabIndex = 11;
+            this.lblD.Text = "Date d\'echeance :";
             // 
             // NouvelleTache
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblD);
+            this.Controls.Add(this.lblDesc);
+            this.Controls.Add(this.lblT);
             this.Controls.Add(this.dtpTache);
             this.Controls.Add(this.txtDescription);
             this.Controls.Add(this.btnAnnule);
@@ -113,5 +146,8 @@
         private System.Windows.Forms.Button btnAnnule;
         private System.Windows.Forms.TextBox txtDescription;
         private System.Windows.Forms.DateTimePicker dtpTache;
+        private System.Windows.Forms.Label lblT;
+        private System.Windows.Forms.Label lblDesc;
+        private System.Windows.Forms.Label lblD;
     }
 }

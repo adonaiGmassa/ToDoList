@@ -18,5 +18,20 @@ namespace ToDoList
         {
             InitializeComponent();
         }
+
+        private void btnAjout_Click(object sender, EventArgs e)
+        {
+            t.AjoutTache();
+        }
+
+        private void btnMajTache_Click(object sender, EventArgs e)
+        {
+            t.MajTache();
+        }
+
+        private void btnSupp_Click(object sender, EventArgs e)
+        {
+            t.SuppTache();
+        }
     }
 }

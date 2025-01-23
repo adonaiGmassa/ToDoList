@@ -64,6 +64,7 @@
             this.btnAjout.TabIndex = 2;
             this.btnAjout.Text = "Ajoute tache";
             this.btnAjout.UseVisualStyleBackColor = true;
+            this.btnAjout.Click += new System.EventHandler(this.btnAjout_Click);
             // 
             // dataGridView1
             // 
@@ -83,6 +84,7 @@
             this.btnSupp.TabIndex = 4;
             this.btnSupp.Text = "Supprime tache";
             this.btnSupp.UseVisualStyleBackColor = true;
+            this.btnSupp.Click += new System.EventHandler(this.btnSupp_Click);
             // 
             // btnMajTache
             // 
@@ -92,6 +94,7 @@
             this.btnMajTache.TabIndex = 5;
             this.btnMajTache.Text = "Modifie tache";
             this.btnMajTache.UseVisualStyleBackColor = true;
+            this.btnMajTache.Click += new System.EventHandler(this.btnMajTache_Click);
             // 
             // btnfiltre
             // 

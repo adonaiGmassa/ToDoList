@@ -62,8 +62,8 @@ namespace ToDoList
         { }
 
         // Méthode pour indique qu'une tache est terminée
-        public void tacheTermine() 
-        { }
+        public bool tacheTermine() 
+        { return; }
 
         // Méthode pour supprime une tache
         public void SuppTache() 
