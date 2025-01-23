@@ -56,8 +56,10 @@ namespace ToDoList
         // Méthode pour ajoute une tache
         public void AjoutTache() 
         {
-            nomTache = Nt.txtTache.Text;
-        
+            nomTache = Nt.TxtTache.Text;
+            descriptionTache += Nt.TxtDescription.Text;
+            echeance = Nt.dtpTache.Value;
+            termine= false;
         }
 
         // Méthode pour mettre à jour une tache
@@ -66,7 +68,7 @@ namespace ToDoList
 
         // Méthode pour indique qu'une tache est terminée
         public bool tacheTermine() 
-        { return; }
+        { bool complete; return complete; }
 
         // Méthode pour supprime une tache
         public void SuppTache() 

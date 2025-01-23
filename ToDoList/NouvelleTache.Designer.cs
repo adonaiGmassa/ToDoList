@@ -145,10 +145,10 @@
         private System.Windows.Forms.Label lblTitre;
         private System.Windows.Forms.Button btnAnnule;
         private System.Windows.Forms.TextBox txtDescription;
-        private System.Windows.Forms.DateTimePicker dtpTache;
         private System.Windows.Forms.Label lblT;
         private System.Windows.Forms.Label lblDesc;
         private System.Windows.Forms.Label lblD;
+        public System.Windows.Forms.DateTimePicker dtpTache;
 
         public System.Windows.Forms.TextBox TxtTache
         {
