@@ -149,5 +149,17 @@
         private System.Windows.Forms.Label lblT;
         private System.Windows.Forms.Label lblDesc;
         private System.Windows.Forms.Label lblD;
+
+        public System.Windows.Forms.TextBox TxtTache
+        {
+            get { return txtTache; }
+            set { txtTache = value; }
+        }
+
+        public System.Windows.Forms.TextBox TxtDescription
+        {
+            get { return txtDescription; }
+            set { txtDescription = value; }
+        }
     }
 }

@@ -55,7 +55,10 @@ namespace ToDoList
         #region Methode Gestion Tache
         // Méthode pour ajoute une tache
         public void AjoutTache() 
-        { }
+        {
+            nomTache = Nt.txtTache.Text;
+        
+        }
 
         // Méthode pour mettre à jour une tache
         public void MajTache() 
