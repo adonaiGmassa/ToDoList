@@ -37,6 +37,7 @@
             this.lblT = new System.Windows.Forms.Label();
             this.lblDesc = new System.Windows.Forms.Label();
             this.lblD = new System.Windows.Forms.Label();
+            this.cnTermine = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // btnValider
@@ -76,7 +77,7 @@
             // 
             // txtDescription
             // 
-            this.txtDescription.Location = new System.Drawing.Point(213, 175);
+            this.txtDescription.Location = new System.Drawing.Point(213, 159);
             this.txtDescription.Multiline = true;
             this.txtDescription.Name = "txtDescription";
             this.txtDescription.Size = new System.Drawing.Size(374, 118);
@@ -84,7 +85,7 @@
             // 
             // dtpTache
             // 
-            this.dtpTache.Location = new System.Drawing.Point(215, 345);
+            this.dtpTache.Location = new System.Drawing.Point(213, 314);
             this.dtpTache.Name = "dtpTache";
             this.dtpTache.Size = new System.Drawing.Size(374, 26);
             this.dtpTache.TabIndex = 8;
@@ -101,7 +102,7 @@
             // lblDesc
             // 
             this.lblDesc.AutoSize = true;
-            this.lblDesc.Location = new System.Drawing.Point(211, 152);
+            this.lblDesc.Location = new System.Drawing.Point(211, 136);
             this.lblDesc.Name = "lblDesc";
             this.lblDesc.Size = new System.Drawing.Size(97, 20);
             this.lblDesc.TabIndex = 10;
@@ -110,17 +111,28 @@
             // lblD
             // 
             this.lblD.AutoSize = true;
-            this.lblD.Location = new System.Drawing.Point(216, 322);
+            this.lblD.Location = new System.Drawing.Point(214, 291);
             this.lblD.Name = "lblD";
             this.lblD.Size = new System.Drawing.Size(138, 20);
             this.lblD.TabIndex = 11;
             this.lblD.Text = "Date d\'echeance :";
+            // 
+            // cnTermine
+            // 
+            this.cnTermine.AutoSize = true;
+            this.cnTermine.Location = new System.Drawing.Point(347, 365);
+            this.cnTermine.Name = "cnTermine";
+            this.cnTermine.Size = new System.Drawing.Size(140, 24);
+            this.cnTermine.TabIndex = 12;
+            this.cnTermine.Text = "Tache Termine";
+            this.cnTermine.UseVisualStyleBackColor = true;
             // 
             // NouvelleTache
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.cnTermine);
             this.Controls.Add(this.lblD);
             this.Controls.Add(this.lblDesc);
             this.Controls.Add(this.lblT);
@@ -149,6 +161,7 @@
         private System.Windows.Forms.Label lblDesc;
         private System.Windows.Forms.Label lblD;
         public System.Windows.Forms.DateTimePicker dtpTache;
+        public System.Windows.Forms.CheckBox cnTermine;
 
         public System.Windows.Forms.TextBox TxtTache
         {
